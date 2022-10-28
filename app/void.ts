@@ -1,6 +1,6 @@
-function saludar():void{
-    console.log("Hola");
-}
+// function saludar():void{
+//     console.log("Hola");
+// }
 
-let valor = saludar();
-console.log(valor);
+// let valor = saludar();
+// console.log(valor);

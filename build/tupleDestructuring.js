@@ -1,4 +1,3 @@
-"use strict";
 let persona;
 persona = [["Manuel", "Hernandez"], 21, "masculino", ["Gym", "Fiesta"]];
 let [nombree, edadd, genero, interes] = persona;

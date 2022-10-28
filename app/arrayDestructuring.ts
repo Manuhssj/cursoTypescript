@@ -1,5 +1,5 @@
-let frutas:string[] = ["Manzana","Uva","Pera"];
+// let frutas:string[] = ["Manzana","Uva","Pera"];
 
-let [,,item3] = frutas;
+// let [,,item3] = frutas;
 
-console.log(item3);
+// console.log(item3);

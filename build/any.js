@@ -1,4 +1,3 @@
-"use strict";
 let cualquierValor;
 cualquierValor = "Hola";
 console.log(cualquierValor.length);

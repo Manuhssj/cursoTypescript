@@ -1,6 +1,6 @@
-let num = [1,3,2,4,2,""];
-num.push("");
+// let num = [1,3,2,4,2,""];
+// num.push("");
 
-let nombres:string[] = ["Luis","Pedro","Juan"];
+// let nombres:string[] = ["Luis","Pedro","Juan"];
 
-console.log(nombres[1]);
+// console.log(nombres[1]);

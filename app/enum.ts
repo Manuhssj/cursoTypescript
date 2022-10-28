@@ -1,6 +1,6 @@
-enum Estado{
-    activo= "Activo",
-    inactivo= "Inactivo"
-}
+// enum Estado{
+//     activo= "Activo",
+//     inactivo= "Inactivo"
+// }
 
-console.log(Estado.inactivo);
+// console.log(Estado.inactivo);

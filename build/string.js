@@ -1,4 +1,3 @@
-"use strict";
 let nombre = "Manuel";
 let apellido = "Hernandez";
 // let resultado = nombre + " " + apellido;

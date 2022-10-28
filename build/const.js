@@ -1,4 +1,3 @@
-"use strict";
 const estado = false;
 // estado = true; NO SE PUEDE CAMBIAR UNA CONST
 if (true) {

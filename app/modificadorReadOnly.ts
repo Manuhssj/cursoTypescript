@@ -1,9 +1,9 @@
-class Libro {
-    readonly autor:string;
-    titulo:string;
-    fechaPublicacion:Date;
-}
+// class Libro {
+//     readonly autor:string;
+//     titulo:string;
+//     fechaPublicacion:Date;
+// }
 
-let libro = new Libro();
+// let libro = new Libro();
 
-// libro.autor = "Manuel";  //NO PUEDE EDITARSE POR PROPIEDAD READONLY
+// // libro.autor = "Manuel";  //NO PUEDE EDITARSE POR PROPIEDAD READONLY

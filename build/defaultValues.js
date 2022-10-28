@@ -1,4 +1,3 @@
-"use strict";
 // El ? despues del valor del parametro hace que sea opcional este valor
 function ObtenerValores(objeto) {
     let { valor1, valor2 } = objeto;

@@ -1,4 +1,3 @@
-"use strict";
 var Estado;
 (function (Estado) {
     Estado["activo"] = "Activo";

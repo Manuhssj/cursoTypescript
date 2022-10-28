@@ -1,4 +1,3 @@
-"use strict";
 let cadena = "Hola soy una cadena";
 let result = cadena.length;
 console.log(result);

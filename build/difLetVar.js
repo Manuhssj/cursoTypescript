@@ -1,4 +1,3 @@
-"use strict";
 var valor1 = 120;
 var valor1 = 23;
 let cadena1 = "Hola";

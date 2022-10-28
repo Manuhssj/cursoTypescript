@@ -1,24 +1,24 @@
- abstract class Animal{
-     abstract Ruido():void;
-}
+//  abstract class Animal{
+//      abstract Ruido():void;
+// }
 
 
-class Gato extends Animal{
-    Ruido(): void {
-        console.log("Miau");
-    }
-}
+// class Gato extends Animal{
+//     Ruido(): void {
+//         console.log("Miau");
+//     }
+// }
 
-class Perro extends Animal{
-    Ruido(): void {
-        console.log("Wao");
-    }
-}
+// class Perro extends Animal{
+//     Ruido(): void {
+//         console.log("Wao");
+//     }
+// }
 
-let gato = new Gato()
+// let gato = new Gato()
 
-gato.Ruido();
+// gato.Ruido();
 
-let perro = new Perro()
+// let perro = new Perro()
 
-perro.Ruido();
+// perro.Ruido();

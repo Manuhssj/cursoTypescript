@@ -1,4 +1,3 @@
-"use strict";
 let individuo = {
     nombreIndividuo: ["Manuel", "Hernandez"],
     edadIndividuo: 21,

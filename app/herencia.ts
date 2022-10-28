@@ -1,31 +1,31 @@
-class Persona{
-    nombre:string;
-    edad:number;
-}
+// class Personaa{
+//     nombre:string;
+//     edad:number;
+// }
 
 
 
-class Estudiante extends Persona{
-    numeroCarnet:number;
-    constructor(numero:number){
-        super();
-        this.numeroCarnet = numero;
-    }
-}
+// class Estudiante extends Personaa{
+//     numeroCarnet:number;
+//     constructor(numero:number){
+//         super();
+//         this.numeroCarnet = numero;
+//     }
+// }
 
-class Empleado extends Persona{
+// class Empleado extends Personaa{
     
-    numeroSeguro:number;
-    constructor(nombreEmpleado:string,edad:number,numero:number){
-        super();
-        this.numeroSeguro=numero;
-        this.nombre = nombreEmpleado;
-        this.edad = edad;
-    }
-}
+//     numeroSeguro:number;
+//     constructor(nombreEmpleado:string,edad:number,numero:number){
+//         super();
+//         this.numeroSeguro=numero;
+//         this.nombre = nombreEmpleado;
+//         this.edad = edad;
+//     }
+// }
 
-let estudiante = new Estudiante(124415);
-let empleado = new Empleado("Manuel",21,121456);
+// let estudiante = new Estudiante(124415);
+// let empleado = new Empleado("Manuel",21,121456);
 
-console.log(empleado);
+// console.log(empleado);
 

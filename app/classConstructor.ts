@@ -1,14 +1,14 @@
-class Persona{
-    nombre:string;
-    apellido:string;
-    edad:number;
+// class Persona{
+//     nombre:string;
+//     apellido:string;
+//     edad:number;
     
-    constructor(nombre: string, apellido: string, edad: number) 
-    {
-        this.nombre = nombre
-        this.apellido = apellido
-        this.edad = edad
-    }
-}
+//     constructor(nombre: string, apellido: string, edad: number) 
+//     {
+//         this.nombre = nombre
+//         this.apellido = apellido
+//         this.edad = edad
+//     }
+// }
 
-let personaa = new Persona("Manuel","Hernandez",21);
+// let personaa = new Persona("Manuel","Hernandez",21);

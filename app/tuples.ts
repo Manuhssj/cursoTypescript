@@ -1,5 +1,5 @@
-let datos:[string,number,boolean];
+// let datos:[string,number,boolean];
 
-datos = ["",12,false];
+// datos = ["",12,false];
 
-console.log(datos[1]);
+// console.log(datos[1]);

@@ -1,12 +1,12 @@
-class Persona {
+class Personaa {
 }
-class Estudiante extends Persona {
+class Estudiante extends Personaa {
     constructor(numero) {
         super();
         this.numeroCarnet = numero;
     }
 }
-class Empleado extends Persona {
+class Empleado extends Personaa {
     constructor(nombreEmpleado, edad, numero) {
         super();
         this.numeroSeguro = numero;

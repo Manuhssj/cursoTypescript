@@ -1,15 +1,15 @@
-let estadoCivil:boolean =false;
+// let estadoCivil:boolean =false;
 
-if (estadoCivil) {
-    console.log("Esta casado");
+// if (estadoCivil) {
+//     console.log("Esta casado");
     
-}else{
-    console.log("Esta soltero");
+// }else{
+//     console.log("Esta soltero");
     
-}
+// }
 
-estadoCivil=obtenerEstadoCivil();
+// estadoCivil=obtenerEstadoCivil();
 
-function obtenerEstadoCivil() {
-    return true;
-}
+// function obtenerEstadoCivil() {
+//     return true;
+// }

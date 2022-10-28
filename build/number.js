@@ -1,4 +1,3 @@
-"use strict";
 let numero = 12;
 // let edad:number =18;
 let edad = obtenerEdad();

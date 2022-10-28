@@ -1,9 +1,9 @@
-let cadena:any = "Hola soy una cadena";
+// let cadena:any = "Hola soy una cadena";
 
-let result:number = (<string> cadena).length;
+// let result:number = (<string> cadena).length;
 
-console.log(result);
+// console.log(result);
 
-let result2:number = (cadena as string).length;
+// let result2:number = (cadena as string).length;
 
-console.log(result2);
+// console.log(result2);

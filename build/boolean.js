@@ -1,4 +1,3 @@
-"use strict";
 let estadoCivil = false;
 if (estadoCivil) {
     console.log("Esta casado");
