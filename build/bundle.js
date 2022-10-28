@@ -65,6 +65,26 @@
 // for (const iterator of [1,2,3,4,5,6,7]) {
 //     console.log(iterator);
 // }
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+function DecoradorClase(target) {
+    target.prototype.Saludar = function () {
+        console.log("Hola");
+    };
+}
+let Persona = class Persona {
+    constructor() {
+    }
+};
+Persona = __decorate([
+    DecoradorClase
+], Persona);
+let persona = new Persona();
+// persona.Saludar(); tira error pero igual se ve en consola
 // // El ? despues del valor del parametro hace que sea opcional este valor
 // function ObtenerValores(objeto: {valor1:string, valor2?:number}) {
 //     let {valor1, valor2 } = objeto;
@@ -229,6 +249,12 @@
 // }
 // let jefe = new Jefe("Jefe","Manuel","Hernandez",21,941,true);
 // console.log(jefe);
+// ///<reference path="namespaceCliente.ts"/>
+// ///<reference path="namespaceEmpleado.ts"/>
+// let clienteMsj = NamespaceCliente.Mensaje();
+// let empleadoMsj = NamespaceEmpleado.Mensaje();
+// console.log(clienteMsj);
+// console.log(empleadoMsj);
 var NamespaceCliente;
 (function (NamespaceCliente) {
     function Mensaje() {
@@ -243,12 +269,6 @@ var NamespaceEmpleado;
     }
     NamespaceEmpleado.Mensaje = Mensaje;
 })(NamespaceEmpleado || (NamespaceEmpleado = {}));
-///<reference path="namespaceCliente.ts"/>
-///<reference path="namespaceEmpleado.ts"/>
-let clienteMsj = NamespaceCliente.Mensaje;
-let empleadoMsj = NamespaceEmpleado.Mensaje;
-console.log(clienteMsj);
-console.log(empleadoMsj);
 // // MONTO ES TIPO OBJECT YA QUE SI SE DEFINIO SU TIPO 
 // // VARIABLE POR SER INDEFINIDO ES TIPO UNDEFINED
 // let monto:number = null;
